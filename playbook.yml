@@ -1,0 +1,8 @@
+- name: Install and setup monitoring tools
+  hosts: all_nodes
+  become: true
+  roles:
+    - alertmanager
+    - prometheus_node_exporter
+    - prometheus
+    - grafana

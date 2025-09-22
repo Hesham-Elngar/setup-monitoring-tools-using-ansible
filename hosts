@@ -1,0 +1,4 @@
+[all_nodes]
+172.31.33.160 ansible_user=ec2-user
+172.31.34.82 ansible_user=ec2-user
+
